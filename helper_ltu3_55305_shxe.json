@@ -1,0 +1,76 @@
+kiwi
+
+// This is a comment
+
+false * 29
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+false + apple
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const isEven = num => num % 2 === 0;
+
+grape
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const randomNumber = getRandomNumber();
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple - 76,57,28,6,90,54,5,26,84,75,34,22,50,91,9,72,10,69,72,64,38,62,60,4,24,8,19,46,80,17,71,15,91,89,78,67,32,23,69,53,41,81,16,19,35,36,36,42,28,58,16,32,97,31,37,57,55,4,75,35,72,25,32,75,82,77,35,53,75,44,30,65,50,14,15,97,38,78,97,24,91
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const isEven = num => num % 2 === 0;
+59 + apple
+
+function addNumbers(a, b) { return a + b; }
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+kiwi
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const removeDuplicates = array => Array.from(new Set(array));
+const multiply = (a, b) => a * b;
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true + false
+const capitalizeString = str => str.toUpperCase();
+apple
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+45,90,95,42,12,4,86,27,96,4,95,94,25,26,57,74,91,78,70,99,14,62,25,28,98,59,62,27,74,13,68,47,17,75,67,19,69,14,80,11,51,94,87,38,89,43,95,71,86,14,38,85,80,76,20,29,11,13,21,61,12,89,30,36,51,46,93,10,70,16,71,95,78,16,87,67,60,56,15,73,40,38 * 49,3,30,27,7,58,55,31,74,12,60,32,64,71,43,57,82,29,74,90,3,9,94,77,67,88,82,63,28,51,68,94,0,18,13,88,54,63,0,53,43,85,88,96,53,4,99,14,1,10,54,59,74,62,83
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange - 10,51,31,81,63,65,26,78,25,53,13,57,78,28,22,46,48,35,96,4,56,45,94,11,28,14,2,3,98,42,35,98,10,26,4,10,47,94,11,32,89,81,22,0,1,73,98,56,92,54,25,17,61
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+3,66,32,25,96,79,85,49,82,63,73,37,17,55,10 + apple
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+1 + true
+const isEven = num => num % 2 === 0;
+const greet = name => `Hello, ${name}!`;
+orange
+
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange * kiwi
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+46 + 64
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana
+
+
+const randomNumber = getRandomNumber();
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple
+
+// This is a comment
