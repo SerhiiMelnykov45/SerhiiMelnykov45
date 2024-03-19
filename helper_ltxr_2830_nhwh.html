@@ -1,0 +1,40 @@
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+grape
+
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+37 - apple
+
+const randomNumber = getRandomNumber();
+banana
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+false / true
+class MyClass { constructor() { this.property = getRandomString(); } }
+kiwi
+
+const isEven = num => num % 2 === 0;
+57 - grape
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+97 - 96
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const squareRoot = num => Math.sqrt(num);
+
+false - 40,71,88,46,66,16,6,11,50,3,89,18,63,25,68,86,17,61,97,37,47,80,61,14,0,94,97,75,91,72,67,33,0,83,46,93,81,10,52,15,36,12,37,7,71,21,10,90,95,40,93,0,6,20,6,58,1,84,5,44,36,90,62,10,67,60,10,36,60,99,89,62,94,24,81,71,49,17,96,76,21,91,87,96,57,66,25,67,86,42,54,57,28
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+40,57,19,43,67,68,99,73,0,78,70,76,45,70,76,36,50,34,45,24,82,29,75,82,0,85,78,33,97,94,11,26,0,54,3,98,80,37,80,62,65,19,74,37,92,28,23,37,96,71,89,9,59,98,72,41,92,82,0,1,9,39,69,70,73,99,23,7,69,41,93,25,32,15,29,74,16,0,18,55,6,80,12,50,57,5,32,2,81,97,43,5,42,10,60 / 54,66,5,55,47,47,12,75,6,94,29,35,1,6,20,45,80,84,19,99,60,81,88,41,0,41,69,83,8,17,31,8,5,12,22,63,12,40,77,51,36,91,25,25,41
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+8 / true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const isEven = num => num % 2 === 0;
+kiwi * apple
+function addNumbers(a, b) { return a + b; }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
