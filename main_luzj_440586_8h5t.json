@@ -1,0 +1,47 @@
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+apple * false
+
+const multiply = (a, b) => a * b;
+
+const variableName = getRandomNumber();
+6 + 2,58,7,86,42,68,64,63,4,48,13,62,55,53,34,90,38,71,40,5,6,75,6,71,36,50,72,17,13,93,90,11,27,49,13,99,26,19,57,35
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const variableName = getRandomNumber();
+
+const variableName = getRandomNumber();
+const multiply = (a, b) => a * b;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomElement = array => array[getRandomIndex(array)];
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+banana / 37,98,8,0,73,43,85,50,12,56,66,68,47,21,27,89,48,65,75,51,83,83,85,32,74,7,67,9,18,13,87,34,47,37,42,5,33,0,49,12,92,28,22,9,90,31,37,2,98,32,27,19,41,25,84,7,23,58,26,21,42,24,68,35
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+80 + apple
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+orange
+
+const squareRoot = num => Math.sqrt(num);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+false / true
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+let array = getRandomArray(); array.forEach(item => console.log(item));
+class MyClass { constructor() { this.property = getRandomString(); } }
+
